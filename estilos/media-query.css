@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+   body {
+    background-image: url(../imagens/imagem-m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+   } 
+   div {
+        width: 550px;
+        font-size: .8em;
+   }
+
+   h1{
+    font-size: 2.7em;
+   }
+   p{
+    font-size: 1.5em;
+   }
+   
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: url(../imagens/imagem-g.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+       } 
+       div {
+        width: 800px;
+        font-size: .8em;
+    }
+
+        h1{
+            font-size: 3em;
+        }
+        p{
+            font-size: 1.8em;
+        }
+        #res {
+            font-size: 1.6em;
+        }
+}

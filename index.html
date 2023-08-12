@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <title>Médias</title>
+</head>
+<body>
+    
+    <div id="corpo">
+        <p>
+            <h1>Calculando média do enem</h1>
+        </p>
+        <p class="imp">
+            <label for="inota1">Digite a sua nota em linguagens:</label>
+            <input type="number" name="nota1" id="inota1">
+        </p>
+        <p class="par">
+            <label for="inota2">Digite a sua nota em matemática:</label>
+            <input type="number" name="nota2" id="inota2">
+        </p>
+        <p class="imp">
+          <label for="inota3">Digite a sua nota em ciências da natureza:</label>
+            <input type="number" name="nota3" id="inota3">
+        </p>
+        <p class="par">
+            <label for="inota4">Digite a sua nota em ciências humanas</label>
+            <input type="number" name="nota4" id="inota4">
+        </p>
+        <p class="imp">
+            <label for="inota5">Digite a sua nota em redação</label>
+            <input type="number" name="nota5" id="inota5">
+        </p>
+        <p class="par">
+            <label for="icorte">Digite a nota de corte do curso que deseja ingressar</label>
+            <input type="number" name="corte" id="icorte">
+        </p>
+
+        <p id="botao">
+            <input type="button" id="verificar" value="Verificar" onclick="verificar()">
+        </p>
+        <p id="res">
+            Resultados:
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
